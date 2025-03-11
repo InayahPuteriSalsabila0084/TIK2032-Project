@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #333; color: white; padding: 10px 0; text-align: center; }
+        nav ul { list-style: none; padding: 0; text-align: center; }
+        nav ul li { display: inline; margin: 0 15px; }
+        nav ul li a { color: white; text-decoration: none; font-size: 18px; }
+        section { padding: 20px; text-align: center; }
+        .gallery img { width: 200px; margin: 10px; }
+        .blog-post { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website Sederhana</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat Datang di Website Sederhana</h2>
+        <p>Ini adalah halaman utama dari website ini.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://www.google.com/imgres?q=joong%20archen&imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2Ffe%2F5b%2F91%2Ffe5b9153031bbdf9a5983262140f8f8b.jpg&imgrefurl=https%3A%2F%2Fin.pinterest.com%2Fpin%2F414542340721161199%2F&docid=-2P1eYu1vZI5PM&tbnid=Ychtc7581KNnZM&vet=12ahUKEwjvgI_9sIGMAxU55DkIHf0FF5EQM3oECBkQAA..i&w=736&h=1310&hcb=2&ved=2ahUKEwjvgI_9sIGMAxU55DkIHf0FF5EQM3oECBkQAA" alt="Foto 1">
+            <img src="https://www.google.com/imgres?q=joong%20archen&imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2Fc4%2F0c%2F1c%2Fc40c1cda6572daa631ce8d1f8ebd20ca.jpg&imgrefurl=https%3A%2F%2Fid.pinterest.com%2Fpin%2F630504016615124997%2F&docid=IiP2P55BZVouBM&tbnid=r1lxmZiMpEPjDM&vet=12ahUKEwjvgI_9sIGMAxU55DkIHf0FF5EQM3oECFMQAA..i&w=717&h=1058&hcb=2&ved=2ahUKEwjvgI_9sIGMAxU55DkIHf0FF5EQM3oECFMQAA" alt="Foto 2">
+            <img src="https://www.google.com/imgres?q=joong%20archen&imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2Fe9%2Fb3%2F64%2Fe9b36436ce7744d88a011de37e705d97.jpg&imgrefurl=https%3A%2F%2Fid.pinterest.com%2Fpin%2F804033339759921483%2F&docid=XIy7J8lPwDDv1M&tbnid=fN2oWQdAYzax8M&vet=12ahUKEwjvgI_9sIGMAxU55DkIHf0FF5EQM3oECBsQAA..i&w=736&h=920&hcb=2&ved=2ahUKEwjvgI_9sIGMAxU55DkIHf0FF5EQM3oECBsQAA" alt="Foto 3">
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Artikel 1: PROFIL SINGKAT JOONG ARCHEN</h3>
+            <p>Joong Archen Aydin adalah aktor, model, dan penyanyi asal Thailand yang dikenal luas di industri hiburan Thailand.</p>
+        </div>
+        <div class="blog-post">
+            <h3>Artikel 2: FAN MEETING JOONG ARCHEN IN JAKARTA</h3>
+            <p> Fan meeting itu akan diadakan di Luxus Grand Ballroom Hall A, MGK Kemayoran, Jakarta pada 9 November 2024.</p>
+        </div>
+        <div class="blog-post">
+            <h3>Artikel 3: JASP.ER</h3>
+            <p>Pada Minggu, 15 Desember, Riser Music resmi memperkenalkan boy group terbarunya yang dinamai JASP.ER, yang beranggotakan Joong Archen, Aou Thanaboon, Santa Pongsapak, dan Pond Naravit.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: inayahsalsabila026@student.unsrat.ac.id</p>
+        <p>Telepon: 085298330408</p>
+    </section>
+</body>
+</html>
